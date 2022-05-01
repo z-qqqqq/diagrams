@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T04:59:35.289Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="17.4.6" etag="bZDExxGq-PxjqfGtRh1y" type="github"><diagram id="Yt7YfY13atG05_GCP0Qt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-01T06:48:28.202Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="KyyToJJRYDv3n37UOTKk" version="17.4.6" type="github">
+  <diagram id="Yt7YfY13atG05_GCP0Qt" name="Page-1">
+    <mxGraphModel dx="920" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x8oZoyv7o86eDa8gC9br-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-1" target="x8oZoyv7o86eDa8gC9br-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-1" value="接受http请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-6" target="x8oZoyv7o86eDa8gC9br-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-6" value="限流器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-8" target="x8oZoyv7o86eDa8gC9br-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-13" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x8oZoyv7o86eDa8gC9br-11">
+          <mxGeometry x="0.1765" y="1" relative="1" as="geometry">
+            <mxPoint x="-7" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-8" value="验证用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-10" target="x8oZoyv7o86eDa8gC9br-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-17" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x8oZoyv7o86eDa8gC9br-15">
+          <mxGeometry x="0.2853" relative="1" as="geometry">
+            <mxPoint x="-12" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-10" value="在Redis缓存中查看库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-14" target="x8oZoyv7o86eDa8gC9br-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-14" value="扣除Redis中的库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-18" value="抢购失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-22" value="扣除Redis中的库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="610" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
