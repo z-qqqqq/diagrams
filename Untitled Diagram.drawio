@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T07:27:50.492Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cLk3HAUGqjgBkxi-bVH_" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-01T07:30:09.972Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="1gM-GFrg9GXnSJhVQCI0" version="17.4.6" type="github">
   <diagram id="Yt7YfY13atG05_GCP0Qt" name="Page-1">
     <mxGraphModel dx="920" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,10 @@
         <mxCell id="x8oZoyv7o86eDa8gC9br-18" value="抢购失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="320" y="270" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x8oZoyv7o86eDa8gC9br-22" value="使用消息队列通知消费者" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="x8oZoyv7o86eDa8gC9br-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-22" target="x8oZoyv7o86eDa8gC9br-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-22" value="使用消息队列通知消费者" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="490" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x8oZoyv7o86eDa8gC9br-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-25" target="x8oZoyv7o86eDa8gC9br-26">
@@ -87,6 +90,9 @@
         </mxCell>
         <mxCell id="x8oZoyv7o86eDa8gC9br-26" value="在数据库中同步扣除的库存数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-37" value="抢购成功" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="490" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
