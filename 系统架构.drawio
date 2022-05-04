@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T16:14:00.391Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="YYr7IEyJxiTJb0Tn-KcY" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T16:16:44.859Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JOLCh1bR3uj4EzgNoC5U" version="17.4.6" type="github">
   <diagram id="RaFIMi_S0FDpr2SlRTwR" name="Page-1">
     <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="9Y3dzlkxCLrm7vFgj_VR-16" value="RabbitMQ&lt;br&gt;集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="170" y="280" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Y3dzlkxCLrm7vFgj_VR-17" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="9Y3dzlkxCLrm7vFgj_VR-17" value="配置服务&lt;br&gt;etcd" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="320" y="230" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9Y3dzlkxCLrm7vFgj_VR-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="9Y3dzlkxCLrm7vFgj_VR-17" target="9Y3dzlkxCLrm7vFgj_VR-17" edge="1">
