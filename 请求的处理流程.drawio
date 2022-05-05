@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T07:01:29.886Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rC2v2N2DOPHrNtxm6y7k" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:02:56.426Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="RSr_2-p_00CtKrdJifE9" version="17.4.6" type="github">
   <diagram id="Yt7YfY13atG05_GCP0Qt" name="Page-1">
-    <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,15 +65,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x8oZoyv7o86eDa8gC9br-10" value="在Redis缓存中查看是否还有库存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="460" y="400" width="100" height="50" as="geometry" />
+          <mxGeometry x="470" y="400" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x8oZoyv7o86eDa8gC9br-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" parent="1" source="x8oZoyv7o86eDa8gC9br-14" target="x8oZoyv7o86eDa8gC9br-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x8oZoyv7o86eDa8gC9br-14" value="扣除Redis中的库存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="460" y="490" width="100" height="50" as="geometry" />
+          <mxGeometry x="470" y="490" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x8oZoyv7o86eDa8gC9br-18" value="抢购失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="x8oZoyv7o86eDa8gC9br-18" value="返回抢购失败" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="320" y="270" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x8oZoyv7o86eDa8gC9br-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" parent="1" source="x8oZoyv7o86eDa8gC9br-22" target="x8oZoyv7o86eDa8gC9br-37" edge="1">
@@ -88,11 +88,25 @@
         <mxCell id="x8oZoyv7o86eDa8gC9br-25" value="接受消息队列中的消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="20" y="570" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x8oZoyv7o86eDa8gC9br-26" value="在数据库中同步扣除的库存数量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="160" y="570" width="100" height="50" as="geometry" />
+        <mxCell id="esYDIXKiYfE5I7MUkiUG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8oZoyv7o86eDa8gC9br-26" target="esYDIXKiYfE5I7MUkiUG-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x8oZoyv7o86eDa8gC9br-37" value="抢购成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="x8oZoyv7o86eDa8gC9br-26" value="在数据库中同步扣除的库存数量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="170" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x8oZoyv7o86eDa8gC9br-37" value="返回抢购成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="170" y="490" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="esYDIXKiYfE5I7MUkiUG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="esYDIXKiYfE5I7MUkiUG-3" target="esYDIXKiYfE5I7MUkiUG-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="594.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="esYDIXKiYfE5I7MUkiUG-3" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="esYDIXKiYfE5I7MUkiUG-7" value="抢购成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
