@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T07:04:45.285Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="VCRKLcEGLYyxUH2DsPOJ" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:05:04.409Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="vO_GoEerWM7bkOmAlIqr" version="17.4.6" type="github">
   <diagram id="Yt7YfY13atG05_GCP0Qt" name="Page-1">
     <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,7 +111,7 @@
         <mxCell id="esYDIXKiYfE5I7MUkiUG-3" value="创建订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="610" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="esYDIXKiYfE5I7MUkiUG-7" value="抢购成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="esYDIXKiYfE5I7MUkiUG-7" value="成功生成订单&lt;br&gt;确认抢购成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="470" y="610" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="esYDIXKiYfE5I7MUkiUG-9" value="秒杀服务" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=1" vertex="1" parent="1">
